@@ -1,4 +1,5 @@
-
+import React from 'react';
+import './Experience.css';
 
 import { Exp_data } from './CardList';
 import { Exp_box } from './components/Card';

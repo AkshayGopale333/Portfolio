@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.js';
+import './index.css';
 const Card = ({ name, url }) => {
   return (
     <div>
@@ -36,16 +36,18 @@ export const Certificate = ({ img }) => {
 export const Exp_box = ({company,year,post,point1,point2,point3,point4}) => {
   return (
     <div>
-       <h4>{company}</h4>
+      <div className='Exp_box'>
+      <h4>{company}</h4>
       <p>{year}</p>
       <i>{post}</i>
 
-      <ul>
+      <ul className=''>
         <li>{point1}</li>
         <li>{point2}</li>
         <li>{point3}</li>
         <li>{point4}</li>
       </ul>
+      </div>
     </div>
   )
 }

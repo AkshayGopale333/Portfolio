@@ -1,3 +1,53 @@
+.Exp_box {
+    border: 1px solid #09203a;
+    align-items: center;
+    background: #09203a;
+    transition: ease-in-out 0.3s;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding: 30px;
+}
+.Exp_box:hover{
+    background: #07284e;
+}
 
+.Exp_box h4 {
+    color: #12d640;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
 
+.Exp_box p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
 
+.Exp_box i {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Exp_box li {
+    color: #fff;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.Exp_box ul {
+    
+}
