@@ -33,7 +33,7 @@ export const Certificate = ({ img }) => {
 
 
 
-export const Exp_box = (props) => {
+export const Exp_box = ({props}) => {
   return (
     <div>
        <h4>{props.company}</h4>

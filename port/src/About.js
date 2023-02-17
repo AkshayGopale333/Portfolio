@@ -87,7 +87,7 @@ function About() {
                     <div className='hrr'></div>
                 </div>
                 <div className='row text-white'>
-
+                    
                     {
                         cardList && cardList.map(({ url, name}) => {
 
