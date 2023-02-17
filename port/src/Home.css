@@ -1,0 +1,104 @@
+.containerr {
+    display: flex;
+    font-size: clamp(2rem, 2.8vw, 5rem);
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.typewriter {
+    width: 21.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #212121;
+    animation: cursor 1s step-start infinite,
+        text 3s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+
+    0%,
+    100% {
+        border-color: #212121;
+    }
+}
+
+@keyframes text {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 21.5ch;
+    }
+}
+
+.home {
+    padding-top: 200px;
+}
+
+.nm {
+    color: white;
+    font-weight: 1000;
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+
+.cr {
+    color: chocolate;
+}
+
+.im {
+    color: white;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 14px;
+}
+
+.fr {
+    color: #12D640;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-menu a {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+
+.navbar {
+    margin-left: -10px;
+    padding-left: -10px;
+}
+
+.nav-link {
+    padding-left: -10px;
+}
+
+/* icon css */
+.circle {
+
+    border: 1px solid rgb(51, 51, 51);
+    height: 40px;
+    width: 40px;
+    background-color: #212121;
+    border-radius: 50px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.btn {
+    margin-left: 8px;
+    background-color: rgb(90, 88, 88);
+}
+
+
+
+/* side baar css */
