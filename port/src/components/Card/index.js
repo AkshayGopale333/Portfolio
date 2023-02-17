@@ -33,18 +33,18 @@ export const Certificate = ({ img }) => {
 
 
 
-export const Exp_box = ({props}) => {
+export const Exp_box = ({company,year,post,point1,point2,point3,point4}) => {
   return (
     <div>
-       <h4>{props.company}</h4>
-      <p>{props.year}</p>
-      <i>{props.post}</i>
+       <h4>{company}</h4>
+      <p>{year}</p>
+      <i>{post}</i>
 
       <ul>
-        <li>{props.pont1}</li>
-        <li>{props.point2}</li>
-        <li>{props.point3}</li>
-        <li>{props.point4}</li>
+        <li>{point1}</li>
+        <li>{point2}</li>
+        <li>{point3}</li>
+        <li>{point4}</li>
       </ul>
     </div>
   )

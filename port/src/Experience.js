@@ -15,11 +15,11 @@ function Experience() {
                 </div>
             </div>
             <div className='container'>
-                <div className='row'>
+                <div className='row text-white'>
 
                     {
-                        Exp_data && Exp_data.map(({props}) => {
-                            return <div className='col-12'> <Exp_box company={props.company} year={props.year} post={props.post} point1={props.point1} point2={props.point2} point3={props.point3} point4={props.point4} />  </div>
+                        Exp_data && Exp_data.map(({company,year,post,point1,point2,point3,point4}) => {
+                            return <div className='col-12'> <Exp_box company={company} year={year} post={post} point1={point1} point2={point2} point3={point3} point4={point4} />  </div>
                         })
                     }
 
