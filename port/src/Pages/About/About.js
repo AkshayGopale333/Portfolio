@@ -1,7 +1,7 @@
 import './About.css';
-import Card from './components/Card';
-import Nav from './Nav';
-import cardList from './CardList';
+ import Card from '../../components/Card';
+ import Nav from '../Navbar/Nav';
+import cardList from '../../Json/CardList';
 
 function About() {
     const mypic = "../mypic.jpg"
@@ -89,9 +89,9 @@ function About() {
                 <div className='row text-white'>
                     
                     {
-                        cardList && cardList.map(({ url, name}) => {
+                        cardList && cardList.map(({ url, name,color}) => {
 
-                            return <div className='col-lg-3 col-md-3 col-sm-6 col-12 mt-4'>   <Card url={url} name={name} /></div>
+                            return <div className='col-lg-3 col-md-3 col-sm-6 col-12 mt-4'>   <Card cssColor={color} url={url} name={name} /></div>
                             
                         })
                     }

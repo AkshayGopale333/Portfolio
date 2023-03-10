@@ -4,37 +4,43 @@
 
 let cardList = [
     {
-
+       color:"#ffbb2c",
         url: "fa-solid fa-globe",
         name: "Software Development",
     },
     {
+        color:"#5578ff",
         name: "Machine Learning",
         url: "fa-solid fa-database",
 
     },
     {
+        color:"#e80368",
         name: "Computer Vision",
         url: "fa-solid fa-camera",
     },
     {
+        color:"#1c7d32",
         name: "Natural Language",
         url: "fa-regular fa-e",
     },
     {
-
+        color:"#28a745",
         url: "fa-solid fa-code",
         name: "Software Engineering",
     },
     {
+        color:"#f1081f",
         name: "Visualization",
         url: "fa-solid fa-chart-column",
     },
     {
+        color:"#47aeff",
         name: "Algorithms",
         url: "fa-solid fa-file-lines",
     },
     {
+        color:"#ffc107",
         name: "Image Processing",
         url: "fa-solid fa-image",
     },
@@ -68,6 +74,7 @@ export let Certificate_data = [
 export let Exp_data = [
     {
         company: "Arizona State University",
+        // color:"pink",
         year: "January 2021 - Present",
         post: "Software Engineer",
         point1: "Managed large‑scale deployment of JupyterHub with Nbgrader and webwork software, facilitating approx 5500 students.",
@@ -76,6 +83,7 @@ export let Exp_data = [
     },
     {
         company: "Augmenify Infotech Pvt. Ltd.",
+        // color:"yellow",
         year: "August 2020 - November 2020",
         post: "Backend Developer",
         point1:"Documented and coded server‑less web application for the hotel industry and designed REST API using Flask‑based JWT authentication.",
@@ -102,5 +110,75 @@ export let Exp_data = [
         post: "Research Intern",
         point1:"Implemented noise reduction algorithm on the satellite image and prepared architecture for detecting objects in high‑resolution satellite images, achieving 80% accuracy.",
         point2:"Increased accessibility of satellite image data by redesigning database and application for showcasing graphical data.",
+    }
+]
+
+export let customData = [
+    {
+        border: "10px",
+        color: "cyan",
+        height: "25%",
+        
+    },
+    {
+        border: "20px",
+        color: "cyan",
+        height: "35%",
+        
+    }, {
+        border: "40px",
+        color: "cyan",
+        height: "25%",
+        
+    }, {
+        border: "10px",
+        color: "cyan",
+        height: "25%",
+        
+    },
+]
+
+export let pro_data = [
+    {
+        title: "Twitter Analysis"
+
+    },
+    {
+        title: "Image recognition as Service"
+   
+    },
+    {
+        title: "Music Streaming Website"
+     
+    },
+    {
+        title: "Movie Recommender"
+     
+    }
+]
+export const project_data = [
+    {
+        img:"./twitteranalysis.jpg"
+    },
+    {
+        img:"./iras.jpeg"
+    },
+    {
+        img:"./gan.jpg"
+    },
+    {
+        img:"./vdg.jpg"
+    },
+    {
+        img:"./resume.jpg"
+    },
+    {
+        img:"./recommender.jpg"
+    },
+    {
+        img:"./musicplayer.jpg"
+    },
+    {
+        img:"./resume.jpg"
     }
 ]

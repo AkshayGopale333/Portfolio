@@ -1,5 +1,5 @@
 
-import Nav from './Nav';
+import Nav from '../Navbar/Nav';
 
 function Contact() {
     return (
@@ -9,4 +9,5 @@ function Contact() {
     )
 }
 export default Contact;
+
 

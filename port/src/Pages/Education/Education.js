@@ -1,7 +1,7 @@
-import { Certificate_data } from './CardList';
-import { Certificate } from './components/Card';
+import { Certificate_data } from '../../Json/CardList';
+ import { Certificate } from '../../components/Card';
 import './Education.css';
-import Nav from './Nav';
+ import Nav from '../Navbar/Nav';
 
 function Education() {
     const img1 = "./ASU.jpg";
@@ -10,7 +10,7 @@ function Education() {
         <div>
             <div>
                 <Nav />
-            </div>
+                </div>
             <div className='container'>
                 <div className='containerr d-inline-flex'>
                     <div className='about_name'>ABOUT</div>
@@ -73,6 +73,7 @@ function Education() {
                 </div>
             </div>
         </div>
+        
     )
 }
 export default Education;

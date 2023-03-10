@@ -42,6 +42,10 @@ function Home() {
                     <button className='btn rounded-pill'><b className='text-white'>in</b></button>
                     <button className='btn rounded-pill'><b className='text-white'><i class="fa-brands fa-github text-white fs-6"></i></b></button>
                     <button className='btn rounded-pill'><b className='text-white'> <i class="fa-brands fa-google fs-6"></i></b></button>
+            
+                  
+
+
                 </div>
             </div>
 
