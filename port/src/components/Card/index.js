@@ -74,8 +74,13 @@ export const Exp_box = ({ cssColor, cssColor2, company, year, post, point1, poin
 
 export function Project({img}){
   return(
-    <>
+    <div>
     <img className='w-100 mt-4' src={img}/>
-    </>
+    <div>
+      
+    </div>
+    </div>
   );
 }
+
+
