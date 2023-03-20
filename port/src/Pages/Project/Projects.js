@@ -7,6 +7,7 @@ import { Project } from '../../components/Card';
 import { Certificate_data, project_data } from '../../Json/CardList';
 
 function Projects() {
+
     return (
         <div>
             <Nav />
@@ -18,9 +19,11 @@ function Projects() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-12 col-sm-12 col-md-12 col-lg-12 text-center'>
-                            <button className='btn btn-sm'>ALL</button>
-                            <button className='btn btn-sm'>WEB_APP</button>
-                            <button className='btn btn-sm'>PROJECT</button>
+
+                            <button className='btn btn-sm' >ALL</button>
+
+                            <button className='btn btn-sm' >WEB_APP</button>
+                            <button className='btn btn-sm' >PROJECT</button>
                         </div>
                     </div>
                 </div>
